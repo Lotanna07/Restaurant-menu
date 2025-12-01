@@ -13,6 +13,9 @@
 
      <!--font awesome-->
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+     <!--ADs cdn-->
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     
     
 </head>
@@ -22,7 +25,7 @@
         <nav class="navbar">
 
             <!--logo-->
-            <img src="img/logo.png"  class="logo"alt="">
+            <img src="img/logo.png"  class="logo">
 
 
 
@@ -48,6 +51,13 @@
 
                <!--cast btn-->
                <a href="#" class="cart"><i class="fa-solid fa-basket-shopping"></i></a>
+
+               <div class="nav-toggler">
+                <span></span>
+                <span></span>
+                <span></span>
+
+               </div>
             </div>
         </nav>
 
@@ -76,7 +86,7 @@
            <!--hero image container-->
 
            <div class="hero-img-container">
-            <div class="background-ele">
+            <div class="background-ele" data-aos="fade-in" data-aos-delay="700">
                 <div class="elipse"></div>
                 <div class="elipse"></div>
                 <div class="elipse"></div>
@@ -84,13 +94,13 @@
             </div>
 
             <div class="forground-elements">
-                <img src="img/hero-biryani.png" class="hero-img" alt="">
-                <img src="img/hero-burger.png" class="hero-img" alt="">
-                <img src="img/hero-pizza.png" class="hero-img" alt="">
+                <img src="img/hero-biryani.png"  data-aos="zoom-in" data-aos-delay="0"class="hero-img" >
+                <img src="img/hero-burger.png" data-aos="zoom-in"  data-aos-delay="150"class="hero-img" >
+                <img src="img/hero-pizza.png" data-aos="zoom-in"  data-aos-delay="300"class="hero-img" >
 
-                <div class="review-box">
-                    <div class="reviewer-info">
-                        <img src="img/user-1.png"  class="reviewer-img"alt="">
+                <div class="review-box" data-aos="zoom-in"  data-aos-delay="450">
+                    <div class="reviewer-info" data-aos="zoom-out"  data-aos-delay="600">
+                        <img src="img/user-1.png"  class="reviewer-img">
 
                         <div class="reviewer">
                             <div class="reviewer-rating">
@@ -106,7 +116,7 @@
 
                         </div>
                     </div>
-                    <div class="review-body">
+                    <div class="review-body"data-aos="zoom-out"  data-aos-delay="650">
                         <i class="fa-solid fa-quote-left"></i>
                         <p class="review">the Restaurant was good . staff was very welcoming</p>
 
@@ -122,8 +132,8 @@
     <!--restaurants section-->
     <section id="restaurant-section">
         
-        <div class="leaf-layer right">
-            <img src="img/leafs.png"  alt="">
+        <div class="leaf-layer right" data-aos="zoom-in-up">
+            <img src="img/leafs.png"  >
 
         </div>
 
@@ -148,14 +158,14 @@
                     <span></span>
                     <span></span>
 
-                 <div>
-                    <img src="img/food-1.png" class="food-img" alt="">
-                    <img src="img/food-2.png" class="food-img" alt="">
-                    <img src="img/food-3.png" class="food-img" alt="">
-                    <img src="img/food-4.png" class="food-img" alt="">
-                    <img src="img/food-5.png" class="food-img" alt="">
-                    <img src="img/food-6.png" class="food-img" alt="">
-                    <img src="img/food-7.png" class="food-img" alt="">
+                 <div class="food-img-animation-wrapper" data-aos="fade">
+                    <img src="img/food-1.png" class="food-img" >
+                    <img src="img/food-2.png" class="food-img" >
+                    <img src="img/food-3.png" class="food-img" >
+                    <img src="img/food-4.png" class="food-img" >
+                    <img src="img/food-5.png" class="food-img" >
+                    <img src="img/food-6.png" class="food-img" >
+                    <img src="img/food-7.png" class="food-img" >
                  </div>
 
             </div>
@@ -177,7 +187,7 @@
             <div class="restaurant">
                 <p class="discount"> 50% off</p>
                 <div class="restaurant-thumbnail">
-                    <img src="img/restaurant-1.png"  class="restaurant-img"alt="">
+                    <img src="img/restaurant-1.png"  class="restaurant-img">
                 </div>
                     <div class="restaurant-body">
                         <h3 class="restaurant-name">Restaurant 01</h3>
@@ -190,7 +200,7 @@
             </div>
              <div class="restaurant">
                 <div class="restaurant-thumbnail">
-                    <img src="img/restaurant-2.png"  class="restaurant-img"alt="">
+                    <img src="img/restaurant-2.png"  class="restaurant-img">
                 </div>
                     <div class="restaurant-body">
                         <h3 class="restaurant-name">Restaurant 02</h3>
@@ -204,7 +214,7 @@
              <div class="restaurant">
                 <p class="discount"> 50% off</p>
                 <div class="restaurant-thumbnail">
-                    <img src="img/restaurant-3.png"  class="restaurant-img"alt="">
+                    <img src="img/restaurant-3.png"  class="restaurant-img">
                 </div>
                     <div class="restaurant-body">
                         <h3 class="restaurant-name">Restaurant 03</h3>
@@ -217,7 +227,7 @@
             </div>
              <div class="restaurant">            
                 <div class="restaurant-thumbnail">
-                    <img src="img/restaurant-4.png"  class="restaurant-img"alt="">
+                    <img src="img/restaurant-4.png"  class="restaurant-img">
                 </div>
                     <div class="restaurant-body">
                         <h3 class="restaurant-name">Restaurant 04</h3>
@@ -230,7 +240,7 @@
             </div>
              <div class="restaurant">
                 <div class="restaurant-thumbnail">
-                    <img src="img/restaurant-5.png"  class="restaurant-img"alt="">
+                    <img src="img/restaurant-5.png"  class="restaurant-img">
                 </div>
                     <div class="restaurant-body">
                         <h3 class="restaurant-name">Restaurant 05</h3>
@@ -244,7 +254,7 @@
              <div class="restaurant">
                 <p class="discount"> 50% off</p>
                 <div class="restaurant-thumbnail">
-                    <img src="img/restaurant-6.png"  class="restaurant-img"alt="">
+                    <img src="img/restaurant-6.png"  class="restaurant-img">
                 </div>
                     <div class="restaurant-body">
                         <h3 class="restaurant-name">Restaurant 06</h3>
@@ -270,13 +280,13 @@
     <!--about section-->
     <section id="about-section">
 
-     <div class="about-us-review-container">
+     <div class="about-us-review-container" data-aos="zoom-in-up">
         <div class="circle">
              
         <img src="img/pizza-pan.png" class="pizza-pan-img" alt="">
 
         <div class="reviews-container">
-            <div class="review-wrapper">
+            <div class="review-wrapper" styles="--aos-delay:250ms;">
                  <img src="img/user-5.png"  class="reviewer-img"alt="">
 
             <div class="review-box">
@@ -309,7 +319,7 @@
 
 
         </div>
-        <div class="review-wrapper">
+        <div class="review-wrapper" styles="--aos-delay:300ms;">
                  <img src="img/user-4.png"  class="reviewer-img"alt="">
 
             <div class="review-box">
@@ -342,7 +352,7 @@
 
 
         </div>
-           <div class="review-wrapper">
+           <div class="review-wrapper" styles="--aos-delay:350ms;">
                  <img src="img/user-3.png"  class="reviewer-img"alt="">
 
             <div class="review-box">
@@ -375,7 +385,7 @@
 
 
         </div>
-        <div class="review-wrapper">
+        <div class="review-wrapper" styles="--aos-delay:400ms;">
                  <img src="img/user-2.png"  class="reviewer-img"alt="">
 
             <div class="review-box">
@@ -408,7 +418,7 @@
 
 
         </div>
-        <div class="review-wrapper">
+        <div class="review-wrapper" styles="--aos-delay:450ms;">
                  <img src="img/user-1.png"  class="reviewer-img"alt="">
 
             <div class="review-box">
@@ -461,7 +471,7 @@
 
                 </div>
 
-                <p class="service detail">lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                <p class="service-detail">lorem ipsum dolor sit amet, consectetur adipiscing</p>
 
             </div>
             <div class="service">
@@ -471,7 +481,7 @@
 
                 </div>
 
-                <p class="service detail">lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                <p class="service-detail">lorem ipsum dolor sit amet, consectetur adipiscing</p>
 
             </div>
             <div class="service">
@@ -481,7 +491,7 @@
 
                 </div>
 
-                <p class="service detail">lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                <p class="service-detail">lorem ipsum dolor sit amet, consectetur adipiscing</p>
 
             </div>
             </div>
@@ -500,16 +510,181 @@
 
                 <h3 class="question">How can i cancel my reservation ?</h3>
                 <i class="fa-solid fa-plus"></i>
+            </div>
+
+            <div class="answer-box">
+                <p class="answer"> lorem ipsum dolor sit amet, consectetur adipiscing elit </p>
 
             </div>
+
+        </div>
+        <div class="faq">
+            <div class="question-box">
+
+                <h3 class="question">how can i change delivery address after order placement ?</h3>
+                <i class="fa-solid fa-plus"></i>
+            </div>
+
+            <div class="answer-box">
+                <p class="answer"> lorem ipsum dolor sit amet, consectetur adipiscing elit </p>
+
+            </div>
+
+        </div>
+        <div class="faq">
+            <div class="question-box">
+
+                <h3 class="question"> how can i contact my delivery person ?</h3>
+                <i class="fa-solid fa-plus"></i>
+            </div>
+
+            <div class="answer-box">
+                <p class="answer"> lorem ipsum dolor sit amet, consectetur adipiscing elit </p>
+
+            </div>
+
+        </div>
+        <div class="faq">
+            <div class="question-box">
+
+                <h3 class="question">my payment is declining . what should i do ?</h3>
+                <i class="fa-solid fa-plus"></i>
+            </div>
+
+            <div class="answer-box">
+                <p class="answer"> lorem ipsum dolor sit amet, consectetur adipiscing elit </p>
+
+            </div>
+
+        </div>
+       <div class="dish-layer "><img src="img/side-dish.png" alt=""> </div>
+
+    </section>
+
+
+
+    <!--download app section-->
+    <section id="download-app-section">
+
+        <div class="section">
+            <div class="download-app-image-container">
+                <div class="pulse"data-aos="zoom-in-up">
+                    <div class="circle pulse-animate"></div>
+                    <div class="circle"></div>
+
+                </div>
+                <img src="img/leafs.png"  data-aos="zoom-in" data-aos-delay="200" class="leaf left" alt="">
+                <img src="img/leaf-left.png" data-aos="zoom-in" data-aos-delay="300" class="leaf right" alt="">
+
+                <img src="img/app.png" data-aos="phone-mockup-fade" data-aos-delay="200" class="phone-mockup" alt="">
+            </div>
+             <!--section content-->
+             <div class="section-detail">
+             <span class="section-highlight">Download our app to stay updated  </span>
+             <p class="section-title">make orders from your phones </p>
+             <p class="section-info">Get extra feature on app including tracking order,</p>
+
+            <div class="download-btn-group">
+                <a href="#" class="download-btn"><img src="img/play-store.png" alt=""></a>
+                <a href="#" class="download-btn"><img src="img/app-store.png" alt=""></a>
+
+            </div>
+
+
+            </div>
+
 
         </div>
 
     </section>
 
+     <!--discount banner-->
+
+     <div class="discount-banner" data-aos="flip-up">
+        <div class="section-detail">
+            <h1 class="section-title">Get an extra 20% off on your first order</h1>
+            <p class="section-info">Use this code during checkout </p>
+            <p class="discount-code ">WELCOME20</p>
+
+        </div>
+
+        <div class="dish-slide">
+            <img src="img/discount-food-slider-1.png" alt="">
+            <img src="img/hero-pizza.png" alt="">
+            <img src="img/hero-burger.png" alt="">
+
+        </div>
+
+     </div>
+
+     <section id="footer">
+        <div class="company-info">
+            <img src="img/footer-logo.png" class="logo" alt="">
+
+            <div class="social-links">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-discord"></i></a>
+                <a href="#"><i class="fa-brands fa-discord"></i></a>
+
+            </div>
+
+             <div class="download-btn-group">
+                <a href="#" class="download-btn"><img src="img/play-store.png" alt=""></a>
+                <a href="#" class="download-btn"><img src="img/app-store.png" alt=""></a>
+
+            </div>
+            </div>
+
+
+            <div class="useful-links footer-links-container">
+                <h3 class="footer-links-title">useful links</h3>
+                <a href="#" class="footer-links">Menu</a>
+                <a href="#" class="footer-links">Restaurants</a>
+                <a href="#" class="footer-links">Your Order</a>
+                <a href="#" class="footer-links">Track Order</a>
+                <a href="#" class="footer-links">Support</a>
+
+            </div>
+
+            <div class="information  footer-links-container">
+                <h3 class="footer-links-title">information</h3>
+                <a href="#" class="footer-links">About Us</a>
+                <a href="#" class="footer-links">Privacy Policy</a>
+                <a href="#" class="footer-links">Terms & Conditions</a>
+                <a href="#" class="footer-links">What info we collect?</a>
+
+            </div>
+
+            <div class="contact ">
+                <h3 class="footer-links-title">information</h3>
+                <p class="footer-text">Our main restaurant is located on street 231, NYC</p>
+                <p class="footer-text">Phone -+0012345678</p>
+                <p class="footer-text">Email-help@logo.com</p>
+
+            </div>
+
+
+            <div class="payment-patners">
+                <img src="img/visa.png" alt="">
+                <img src="img/master-card.png" alt="">
+                <img src="img/paypal.png" alt="">
+                <img src="img/apple-pay.png" alt="">
+                <img src="img/google-pay.png" alt="">
+
+            </div>
+
+            <p class="payment-patners-text"> fully secured payment gateways by trusted companies</p>
+
+            <p class="copyright">Design & 👨‍💻 by Modern web</p>
+
+        
+     </section>
+
     
 
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="index.js"></script>
 </body>
 </html>
