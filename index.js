@@ -14,7 +14,7 @@ navToggler.addEventListener('click', () => {
 
 //about use review slides
 
-let reviews = document . querySelectorAll('.review-wrapper');
+let reviews = document.querySelectorAll('.review-wrapper');
 
 let currentReviews = [0, 2];
 
